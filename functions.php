@@ -6,6 +6,9 @@ include( get_stylesheet_directory() . '/inc/high-fields.php' );
 include( get_stylesheet_directory() . '/inc/high-shortcodes.php' );
 include( get_stylesheet_directory() . '/inc/high-loop.php' );
 
+// temporarily remove WP admin toolbar for dev work
+add_filter('show_admin_bar', '__return_false');
+
 // Setup frame-io Theme
 add_action( 'after_setup_theme', 'high_name_setup' );
 function high_name_setup() {
