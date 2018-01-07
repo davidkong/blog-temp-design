@@ -436,7 +436,7 @@ header{
 }
 
 .btn { /* override bootstrap default */
-	padding: 4px 12px;
+	padding: 4px 18px;
 }
 
 .btn-default,
@@ -1194,7 +1194,7 @@ span.icon-love:before {
 		display: block;
 		position: relative;
 		float: right;
-		padding: 5px 10px;
+		padding: 6px 10px;
 		margin-top: 24px;
 		margin-right: 15px;
 		margin-bottom: 8px;
