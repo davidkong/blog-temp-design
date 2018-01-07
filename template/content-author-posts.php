@@ -16,7 +16,7 @@ $curauth = $wp_query->get_queried_object();  // get current author
 
 	<div class="author-container container">
 			
-		<div class="author-content row">
+		<div class="author-content">
 
 			<h2 class="more-author">
 				<?php 

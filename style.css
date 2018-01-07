@@ -1026,7 +1026,7 @@ span.icon-love:before {
 	button, input, optgroup, select, textarea {font-size: 10px;}
 	main#search-results
 	.container { 
-		padding-left: 0px;
+		padding-left: 20px;
 		padding-right: 0px;
 	}
 	
@@ -1056,7 +1056,10 @@ span.icon-love:before {
 	
 	/* NAV - MAIN MENU --------------------------------------------------------- 320px */
 	#main-menu .navbar-header {float: none;}
-	#main-menu.nav-container.container .row{display: flex;}
+	#main-menu.nav-container.container {
+		padding: 0 1em;
+	}
+	.row {display: flex;}
 	#main-menu .logo-box{order: 1;}
 	#main-menu .search {
 		padding-right: 0;
@@ -1429,7 +1432,11 @@ span.icon-love:before {
 		background-color: #eeeef0;
 		padding: 1.5em ;
 	}
-	.author-content {margin-bottom: 0;}
+	.author-content { 
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: column;
+	}
 	.author-img.col-sm-4 { margin: 0 auto;}
 	.author-img.col-sm-3 { /* bs override */
 		margin: 0 auto;
@@ -1459,6 +1466,7 @@ span.icon-love:before {
 		-ms-flex-order: 2;
 		order: 2;
 		margin-top: 10px;
+		padding: 0 1.5em;
 	}
 	.author-info{ 
 		margin: 1em 0;
