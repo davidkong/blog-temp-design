@@ -1233,8 +1233,10 @@ span.icon-love:before {
 	.single .entry-content h1{font-size: 2em;}
 	.more-author {
 	  margin-bottom: 1em;
-	  font-size: 28px;
-	  font-weight: 100;
+	  font-size: 20px;
+	  font-family: 'Avenir-Book';
+	  opacity: 0.8;
+	  letter-spacing: 0.4px;
 	  text-align: center;
 	}
 	.contribute-heading,
