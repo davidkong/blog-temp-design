@@ -42,17 +42,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
 @font-face {
   font-family: 'Avenir-Black';
   src: url('assets/fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),  url('assets/fonts/Avenir-Black.woff') format('woff'), url('assets/fonts/Avenir-Black.ttf')  format('truetype'), url('assets/fonts/Avenir-Black.svg#Avenir-Black') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
-
-
 @font-face {
   font-family: 'Avenir-Roman';
   src: url('assets/fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),  url('assets/fonts/Avenir-Roman.woff') format('woff'), url('assets/fonts/Avenir-Roman.ttf')  format('truetype'), url('assets/fonts/Avenir-Roman.svg#Avenir-Roman') format('svg');
@@ -65,7 +60,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Avenir-Book';
   src: url('assets/fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),  url('assets/fonts/Avenir-Book.woff') format('woff'), url('assets/fonts/Avenir-Book.ttf')  format('truetype'), url('assets/fonts/Avenir-Book.svg#Avenir-Book') format('svg');
@@ -102,17 +96,11 @@ section {
 	display: block;
 }
 
-h1 {
-}
-
-
 figcaption,
 figure,
 main {
 	display: block;
 }
-
-figure {}
 
 hr {
 	-webkit-box-sizing: content-box;
@@ -390,7 +378,6 @@ iframe {
 	margin-right: auto;
 }
 
-
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -446,6 +433,10 @@ header{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 100%;
+}
+
+.btn { /* override bootstrap default */
+	padding: 4px 12px;
 }
 
 .btn-default,
