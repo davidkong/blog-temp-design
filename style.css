@@ -276,6 +276,10 @@ iframe {
     max-width: 100%;
 	margin: 1.5em auto;
 }
+.container { /* override bootstrap */
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 /* ACCESSIBILITY
 ----------------------------------------------------------------------*/
@@ -1020,7 +1024,11 @@ span.icon-love:before {
 	.small {font-size: .875em;}
 	blockquote {font-size: 2em;}
 	button, input, optgroup, select, textarea {font-size: 10px;}
-	main#search-results .container {padding: 0 1em;}
+	main#search-results
+	.container { 
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	
 	/* HEADER --------------------------------------------------------- 320px */
 	header {
