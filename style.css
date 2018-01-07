@@ -1396,7 +1396,7 @@ span.icon-love:before {
 	h3.author-role {
 		margin-top: 0;
 	  color:  #84828d !important;
-	  font-size: 24px;
+	  font-size: 1.2em;
 	  line-height: 1.3;
 	  text-transform: capitalize;
 	}
@@ -1568,7 +1568,9 @@ span.icon-love:before {
 	.author-descript {padding-top: 0;}
 	
 	.author-container.container {padding-top: 2em;}
-	.single .author-info{margin-top: 1em;}
+	.single .author-info{	
+		margin-top: 1em;
+	}
 	.info-link {width: 22%;}
 	
 	.single figure.author-avatar{
@@ -1633,10 +1635,12 @@ span.icon-love:before {
 		-webkit-order: 2;
 		-ms-flex-order: 2;
 		order: 2;
+		margin-top: 10px;
 	}
 	
 	.author-info{ 
-		margin-top: 1em;
+		margin: 1em 0;
+		padding-left: 2em;
 		-webkit-box-ordinal-group: 3;  
 		-moz-box-ordinal-group: 3;     
 		-webkit-order: 3;
@@ -1665,8 +1669,6 @@ span.icon-love:before {
 	
 	
 	/**** Foot ***/
-	
-	
 	
 	.foot-container{ padding: 2em 0 1em;}
 	
