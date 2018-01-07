@@ -2269,7 +2269,6 @@ span.icon-love:before {
 		border-top: 1px solid #d7d7d7;
 	}
 
-
 	.post-single-cta {
 		position: absolute;
 		top: 0;
@@ -2281,7 +2280,6 @@ span.icon-love:before {
 		margin-top: 0;
 		float: right;
 	}
-
 
 	.small-cap + .wp-caption-text {right: -175px;}
 	

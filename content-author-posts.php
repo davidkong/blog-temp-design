@@ -18,12 +18,7 @@ $curauth = $wp_query->get_queried_object();  // get current author
 			
 		<div class="author-content row">
 
-			<h2 class="more-author">
-				<?php 
-					echo "More Posts From ";
-					echo $curauth->first_name; 
-				?>
-			</h2>
+			<h2 class="more-author"><?php echo $curauth->last_name . '  ' . $curauth->last_name; ?></h2>
 				
 				
 			<?php		
