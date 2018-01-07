@@ -1225,7 +1225,7 @@ span.icon-love:before {
 	.h2,
 	h2.post-meta-title{
 		font-family: 'Avenir-Heavy';
-		font-size: 28px;
+		font-size: 20px;
 		font-weight: 600;
 		line-height: 1.5;
 	}
@@ -1325,12 +1325,13 @@ span.icon-love:before {
 	}
 	.blog-post a, 
 	.featured-post a {font-family: 'Avenir-Heavy';}
-	.blog-post{
+	.blog-post {
 		top: -6.75vh;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 0;
 		border-bottom-right-radius: 12px;
 		border-bottom-left-radius: 12px;
+		box-shadow: 0px 4px 50px rgba(0,0,0,0.1);
 	}
 	.entry-header{
 		background-color: #fff;
