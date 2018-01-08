@@ -710,7 +710,9 @@ h6{
 	max-height: 450px;
 }
 .post-date.small
-.post-content{ margin-bottom: 1em;}
+.post-content{ 
+	margin-bottom: 1em;
+}
 .post-thumb img{
     width: 100%;
     max-width: 100%;
@@ -1482,6 +1484,9 @@ span.icon-love:before {
 		order: 3;
 	}
 	.author-post.col-sm-4 {margin-top: 3em;}
+	.post-content.col-md-4 {
+		padding: 0;
+	}
 	.navigation li a,
 	.navigation li a:hover,
 	.navigation li.disabled {
