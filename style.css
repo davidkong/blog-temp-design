@@ -1635,6 +1635,9 @@ span.icon-love:before {
 	input.field.s {width: 100%;}
 	
 	/* NAV MENUS --------------------------------------------------------- 768px */
+	.search.col-sm-1 {
+		width: 100%;
+	}
 	
 	/* CONTENT --------------------------------------------------------- 768px */
 	.blog-post {margin-bottom: 3em;}
