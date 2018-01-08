@@ -40,7 +40,12 @@
 						<div class="top-menu row">
 							<div class="container">
 								<div class="top-logo-box col">
-										<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/frame-sm-white.png" alt="Frame.io"></a>
+										<a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
+											 title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
+											 rel="home"
+										>
+											<img src="<?php echo get_template_directory_uri(); ?>/images/frame-sm-white.png" alt="Frame.io">
+										</a>
 									</div>
 								<nav id="top-nav" class="navbar">
 								
@@ -95,65 +100,79 @@
 					</script>
 				</div> <!-- top-head -->
 				
-				
+				<!-- main blog header -->
 				<div id="main-menu" class="nav-container container">
-					<div class="row justify-content-start">
+					<div class="main-header-container">
+					
+						<!-- frame.io logo (left) -->
 						<div class="logo-box col">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php  do_action( 'high_add_logo', 10, 2 );?><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
+								 title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
+								 rel="home"
+							>
+								<?php do_action( 'high_add_logo', 10, 2 );?>
+								<h1 class="site-title">
+									<?php bloginfo( 'name' ); ?>
+								</h1>
+							</a>
 						</div>
-						
-						<nav class="navbar">
-						
-									<button  class="navbar-toggle" data-toggle="collapse"  data-target="#navbarNavDropdown"  aria-controls="navbarNavDropdown" >
-													<span class="sr-only">Toggle navigation</span>
-													<span class="icon-bar"></span>
-													<span class="icon-bar"></span>
-													<span class="icon-bar"></span>
-												 </button>
+					
+						<div>	
+							<!-- hamburger menu (right) -->
+							<nav class="navbar">
+										<button class="navbar-toggle" 
+														data-toggle="collapse"  
+														data-target="#navbarNavDropdown"  
+														aria-controls="navbarNavDropdown" 
+										>
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										 </button>
 
-									<div class="collapse navbar-collapse " id="navbarNavDropdown">
-										
-									   <?php wp_nav_menu( 
-													array( 
-														'theme_location'    => 'primary',
-														'container'       => false,
-														'menu_class'		  => '',
-														'fallback_cb'		  => '__return_false',
-														'items_wrap'		  => '<ul id="%1$s" class="navbar-nav top-drop-menu %2$s">%3$s</ul>',
-														'walker'            => new WP_Bootstrap_Navwalker()
-													)
-												); 
-										?>
+										<div class="collapse navbar-collapse " id="navbarNavDropdown">
 											
-										<div class="mobile-logo-wrap">
-										
-											<div class="sign-up">
-												<input type="text" placeholder="Email Address">
-												<input type="submit" value="SUBSCRIBE">
-											</div>
-											<div class="mobile-logo">
-												<a class="mobile-brand" href="https://frame.io/" target="_blank">
-													<img src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo-white.png" alt="Explore Frame.io" title="Explore Frame.io"/>
-												</a>
-											</div>
-										</div>
-									
-									</div> <!-- /.navbar-collapse --> 
-									
-						</nav>
-										<div class="col-sm-1 col-md-1 pull-right search">
-												<button class="btn btn-default fancybox"><img src="<?php echo get_template_directory_uri(); ?>/images/frame-search-icon.png" width="20" height="20" alt="Frame Search" /></button>
-										
-											<div class="hide-search"  style="display: none;">
-												<div class="search-wrap" id="search-pop">
-													<?php get_search_form(); ?>
+										   <?php wp_nav_menu( 
+														array( 
+															'theme_location'    => 'primary',
+															'container'       => false,
+															'menu_class'		  => '',
+															'fallback_cb'		  => '__return_false',
+															'items_wrap'		  => '<ul id="%1$s" class="navbar-nav top-drop-menu %2$s">%3$s</ul>',
+															'walker'            => new WP_Bootstrap_Navwalker()
+														)
+													); 
+											?>
+												
+											<div class="mobile-logo-wrap">
+											
+												<div class="sign-up">
+													<input type="text" placeholder="Email Address">
+													<input type="submit" value="SUBSCRIBE">
+												</div>
+												<div class="mobile-logo">
+													<a class="mobile-brand" href="https://frame.io/" target="_blank">
+														<img src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo-white.png" alt="Explore Frame.io" title="Explore Frame.io"/>
+													</a> 
 												</div>
 											</div>
-										</div>
+										
+										</div> <!-- /.navbar-collapse --> 
+							</nav>
+							<!-- search icon & popout -->
+							<div class="col-sm-1 col-md-1 pull-right search">
+								<button class="btn btn-default fancybox">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/frame-search-icon.png" width="20" height="20" alt="Frame Search" />
+								</button>
+								<div class="hide-search"  style="display: none;">
+									<div class="search-wrap" id="search-pop">
+										<?php get_search_form(); ?>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					
-									<script>
-									</script>
 				</div><!-- head container -->
 				
 			</header>

@@ -1063,6 +1063,11 @@ span.icon-love:before {
 	}
 	
 	/* NAV - MAIN MENU --------------------------------------------------------- 320px */
+	.main-header-container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
 	#main-menu .navbar-header {float: none;}
 	#main-menu.nav-container.container {
 		padding: 0 1em;
@@ -1072,6 +1077,7 @@ span.icon-love:before {
 	#main-menu .search {
 		padding-right: 0;
 		margin-left: 0;
+		margin-right: 2em;
 		order: 2;
 	}
 	#main-menu .navbar {
@@ -1600,11 +1606,6 @@ span.icon-love:before {
 	}
 }
 
-/* 350px ------------------------------------------------------------------------------ 350px */
-@media (min-width: 350px){ 
-	#main-menu .search {margin-left: 15vw;}
-}
-
 /* 375px ------------------------------------------------------------------------------ 375px */
 @media (min-width: 375px){
 	.author-row {
@@ -1613,15 +1614,8 @@ span.icon-love:before {
 	}
 }
 
-/* 400px ------------------------------------------------------------------------------ 400px */
-@media (min-width: 400px){
-	#main-menu .search {margin-left: 20vw;}
-	
-}
-
 /* 520px ------------------------------------------------------------------------------ 520px */
 @media (min-width: 520px){
-	#main-menu .search {margin-left: 45vw;}
 	#main-menu .navbar-toggle[aria-expanded="true"]:after {left: -87vw;}
 	/** headings **/
 	h1{font-size: 30px;}
