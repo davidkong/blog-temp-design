@@ -1503,7 +1503,8 @@ span.icon-love:before {
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
 	.foot-container { 
-		margin: 3.5em 0;
+		margin-top: 3.5em;
+		margin-bottom: 5em;
 	}
 	#foot-content {
 		font-size: 16px;
@@ -1525,7 +1526,7 @@ span.icon-love:before {
 		color: #6D66FE;
 		font-size: 12px;
 		font-family: 'Avenir-Black';
-		letter-spacing: 0.6px;
+		letter-spacing: 1px;
 		text-transform: uppercase;
 		margin: 0;
 	}
@@ -1538,12 +1539,15 @@ span.icon-love:before {
 		height: 50px;
 		margin-top: 1em;
 	}
+	.explore-frame-align:hover {
+		cursor: pointer;
+	}
 	.explore-frame-text {
 		font-size: 12px;
 		font-family: 'Avenir-Black';
 		color: #2A273E;
 		opacity: 0.6;
-		letter-spacing: 0.6px;
+		letter-spacing: 1px;
 		text-transform: uppercase;
 		margin: 0;
 	}
