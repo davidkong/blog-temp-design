@@ -23,14 +23,28 @@
 							</div>
 						<?php dynamic_sidebar('lfoot_sidebar'); ?>
 					</div>
+					<button class="foot-join-us">
+						<p class="foot-join-us-text">Want to join us?</p>
+					</button>
+					<div class="explore-frame-align">
+						<p class="explore-frame-text">Explore Frame.io</p>
+						<div class="explore-frame-arrow">
+							<img src="<?php echo get_template_directory_uri();?>/images/explore-frame-arrow.png"/>
+						</div>
+					</div>
 					<div class="footer-widget col-sm-offset-3 col-sm-3">
 						<?php dynamic_sidebar('rfoot_sidebar'); ?>
 					</div>
 				</div> <!-- end foot content-->
+
 				<div id="foot-text" class="row">
-					<div class="col-sm-6">
-						<p class="foot-text"><span class="high-copy">&copy; Copyright 2017 All Rights Reserved.</span> </p>
-						<p class="foot-text">Made with <span class="icon-love"></span> In New York city.</p>
+					<div class="col-sm-6 foot-text-align">
+						<p class="foot-text">
+							&copy; Copyright 2017 All Rights Reserved.
+						</p>
+						<p class="foot-text">
+							Made with <span class="icon-love"></span> In New York city.
+						</p>
 					</div>
 					
 					<div class="col-sm-offset-3 col-sm-3">

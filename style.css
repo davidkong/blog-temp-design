@@ -1007,8 +1007,8 @@ span.icon-love:before {
   height: 14px;
   position: relative;
   top: 1px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
   display: inline-block;
 }
 .social-icon {
@@ -1503,25 +1503,74 @@ span.icon-love:before {
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
 	.foot-container { 
-		margin: 3.5em 1em;
+		margin: 3.5em 0;
 	}
 	#foot-content {
-		padding: 1em 0;
 		font-size: 16px;
 		width: auto;
-		margin: 0 8%;
+		margin: 1em;
 		text-align: center;
 	}
-	#foot-text{
-		width: auto;
-		margin: 0 8%;
+	#foot-content.row {
+		flex-direction: column;
 	}
-	.foot-text{
+	.foot-join-us { /* html button */
+		height: 4em;
+		margin-top: 2em;
+		border-width: 2px;
+		border-color: #6D66FE;
+		border-radius: 4px;
+	}
+	.foot-join-us-text {
+		color: #6D66FE;
+		font-size: 12px;
+		font-family: 'Avenir-Black';
+		letter-spacing: 0.6px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	.explore-frame-align { /* explore frame container */ 
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+		width: 200px;
+		height: 50px;
+		margin-top: 1em;
+	}
+	.explore-frame-text {
+		font-size: 12px;
+		font-family: 'Avenir-Black';
+		color: #2A273E;
+		opacity: 0.6;
+		letter-spacing: 0.6px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	.explore-frame-arrow {
+		width: 1em;
+		height: 1em;
+		margin-left: 1px;
+		margin-bottom: 1.2em;
+	}
+	#foot-text { /* footer bottom text container */
+		width: auto;
+	}
+	.foot-text-align {
+		margin: 1em 0;
+	}
+	.foot-text {
 		margin-bottom: 0;
 		font-size: 12px;
 		font-family: 'Avenir-Roman';
 		text-align: center;
 		line-height: 2;
+		opacity: 0.6;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+	}
+	.social-icon {
+		margin: 1em 0.5em;
 	}
 	.social-icon-wrap {
 		padding-top: 1em;
@@ -1531,10 +1580,13 @@ span.icon-love:before {
 		display: none;
 	}
 	.footer-widget.col-sm-6 {
-		padding: 0;
+		padding: 0 0.6em;
 	}
 	.sumome-stylebufferbottom-shim {
 		display: none;
+	}
+	#foot-text.row {
+		flex-direction: column-reverse;
 	}
 }
 
@@ -1614,6 +1666,15 @@ span.icon-love:before {
 	/* CONTENT - FOOTER --------------------------------------------------------- 768px */
 	.footer-widget.col-sm-offset-3.col-sm-3 {
 		display: block;
+	}
+	#foot-text.row {
+		flex-direction: row;
+	}
+	.foot-text-align {
+		margin: 0;
+	}
+	#foot-content.row {
+		flex-direction: column;
 	}
 }
 
