@@ -1311,7 +1311,10 @@ span.icon-love:before {
 		z-index: 100;
 	}
 	.post-date,
-	.read-time{font-family: 'Avenir-Roman'; font-size: .825em;}
+	.read-time{ 
+		font-family: 'Avenir-Roman'; 
+		font-size: .8em;
+	}
 	.entry-header, 
 	.blog-post, 
 	.featured-post {
@@ -1397,7 +1400,7 @@ span.icon-love:before {
 	.single-post-cat,
 	.blog-post-cat,
 	.feature-post-cat{
-		margin-right: 4.15em;
+		margin-right: 1em;
 		font-size: .825em;
 	}
 	.single .author-container .post-content { margin: 1.5em auto;}
@@ -1485,7 +1488,7 @@ span.icon-love:before {
 		font-size: 12px;
 		text-decoration: none;
 	}
-	
+
 	/* CONTENT - ARCHIVE --------------------------------------------------------- 320px */
 	.category-grid {
 		background-color: #eeeef0;
