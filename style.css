@@ -280,6 +280,9 @@ iframe {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+#page-wrap { /* fix right side overflow white space on mobile */ 
+	overflow-x: hidden;
+}
 
 /* ACCESSIBILITY
 ----------------------------------------------------------------------*/
@@ -1037,7 +1040,10 @@ span.icon-love:before {
 		height: 75px;
 		padding-top: 1.5em;
 	}
-	header.author-head {height: auto;}
+	.author header.author-head {
+		height: auto;
+		margin-bottom: 1em;
+	}
 	.single-post header.entry-header {height: auto;}
 	.logo-box.col {padding-left: 1em;}
 	.fancybox-lock button.btn.btn-default.fancybox { display: none;}
@@ -1597,7 +1603,14 @@ span.icon-love:before {
 /* 350px ------------------------------------------------------------------------------ 350px */
 @media (min-width: 350px){ 
 	#main-menu .search {margin-left: 15vw;}
-	
+}
+
+/* 375px ------------------------------------------------------------------------------ 375px */
+@media (min-width: 375px){
+	.author-row {
+		margin: 0 1em;
+		border-radius: 12px;
+	}
 }
 
 /* 400px ------------------------------------------------------------------------------ 400px */
