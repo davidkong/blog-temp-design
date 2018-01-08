@@ -8,7 +8,7 @@
 
  */
 
-?> 		
+?> 		 
 		</main> <!--end of page content-->
 		<div class="clear"></div>
 			

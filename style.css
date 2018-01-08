@@ -1502,7 +1502,9 @@ span.icon-love:before {
 	.cat-container{  padding: 3em 0;}
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
-	.foot-container{ padding: 2em 0 1em;}
+	.foot-container { 
+		margin: 2em 1em;
+	}
 	#foot-content {
 		padding: 1em 0;
 		font-size: 16px;
@@ -1524,6 +1526,15 @@ span.icon-love:before {
 	.social-icon-wrap {
 		padding-top: 1em;
 		text-align: center;
+	}
+	.footer-widget.col-sm-offset-3.col-sm-3 {
+		display: none;
+	}
+	.footer-widget.col-sm-6 {
+		padding: 0;
+	}
+	.sumome-stylebufferbottom-shim {
+		display: none;
 	}
 }
 
@@ -1598,6 +1609,11 @@ span.icon-love:before {
 	}
 	.fauthor-content.row {
 		margin-left: 2em;
+	}
+
+	/* CONTENT - FOOTER --------------------------------------------------------- 768px */
+	.footer-widget.col-sm-offset-3.col-sm-3 {
+		display: block;
 	}
 }
 
