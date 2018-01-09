@@ -1648,6 +1648,9 @@ span.icon-love:before {
 	.post-content.col-sm-4 { width: 100%;}
 	#foot-text .col-sm-3 {padding-left: 8px; }
 	#foot-text .col-sm-3:first-of-type{ padding-left: 0;} 
+	.post-content.col-md-4 {
+		margin: 0 1em;
+	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
 	.author .author-row{
@@ -1667,6 +1670,12 @@ span.icon-love:before {
 	}
 	.info-link {
 		opacity: 0.6;
+	}
+	.blog-post {
+		width: 650px;
+	}
+	.post-thumb img {
+		border-radius: 12px;
 	}
 	
 	/* CONTENT - CATEGORIES --------------------------------------------------------- 768px */
