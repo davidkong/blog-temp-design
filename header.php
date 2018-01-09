@@ -118,48 +118,45 @@
 						</div>
 					
 						<div>	
-							<!-- hamburger menu (right) -->
-							<nav class="navbar">
-										<button class="navbar-toggle" 
-														data-toggle="collapse"  
-														data-target="#navbarNavDropdown"  
-														aria-controls="navbarNavDropdown" 
-										>
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										 </button>
-
-										<div class="collapse navbar-collapse " id="navbarNavDropdown">
-											
-										   <?php wp_nav_menu( 
-														array( 
-															'theme_location'    => 'primary',
-															'container'       => false,
-															'menu_class'		  => '',
-															'fallback_cb'		  => '__return_false',
-															'items_wrap'		  => '<ul id="%1$s" class="navbar-nav top-drop-menu %2$s">%3$s</ul>',
-															'walker'            => new WP_Bootstrap_Navwalker()
-														)
-													); 
-											?>
-												
-											<div class="mobile-logo-wrap">
-											
-												<div class="sign-up">
-													<input type="text" placeholder="Email Address">
-													<input type="submit" value="SUBSCRIBE">
-												</div>
-												<div class="mobile-logo">
-													<a class="mobile-brand" href="https://frame.io/" target="_blank">
-														<img src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo-white.png" alt="Explore Frame.io" title="Explore Frame.io"/>
-													</a> 
-												</div>
+							<div>
+								<!-- hamburger menu (right) -->
+								<nav class="navbar">
+									<button class="navbar-toggle" 
+													data-toggle="collapse"  
+													data-target="#navbarNavDropdown"  
+													aria-controls="navbarNavDropdown" 
+									>
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<div class="collapse navbar-collapse " id="navbarNavDropdown">
+									  <?php wp_nav_menu( 
+													array( 
+														'theme_location'    => 'primary',
+														'container'       => false,
+														'menu_class'		  => '',
+														'fallback_cb'		  => '__return_false',
+														'items_wrap'		  => '<ul id="%1$s" class="navbar-nav top-drop-menu %2$s">%3$s</ul>',
+														'walker'            => new WP_Bootstrap_Navwalker()
+													)
+												); 
+										?>	
+										<div class="mobile-logo-wrap">
+											<div class="sign-up">
+												<input type="text" placeholder="Email Address">
+												<input type="submit" value="SUBSCRIBE">
 											</div>
-										
-										</div> <!-- /.navbar-collapse --> 
-							</nav>
+											<div class="mobile-logo">
+												<a class="mobile-brand" href="https://frame.io/" target="_blank">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo-white.png" alt="Explore Frame.io" title="Explore Frame.io"/>
+												</a> 
+											</div>
+										</div>
+									</div> <!-- /.navbar-collapse --> 
+								</nav>
+							</div>
 							<!-- search icon & popout -->
 							<div class="col-sm-1 col-md-1 pull-right search">
 								<button class="btn btn-default fancybox">
