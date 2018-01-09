@@ -1719,19 +1719,29 @@ span.icon-love:before {
 		flex-direction: row;
 	}
 	.foot-text-align {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		margin: 0;
 	}
 	#foot-content.row {
 		flex-direction: row;
 	}
 	.foot-action-main {
-
+		display: flex;
+		flex-direction: column;
 	}
 	.foot-action-buttons {
-
+		display: flex;
+		flex-direction: row;
+		margin-top: 1em;
+		margin-bottom: 5em;
 	}
 	.foot-join-us {
 		margin-left: 0.6em;
+	}
+	.social-icon-wrap {
+		padding-top: 0;
 	}
 }
 
