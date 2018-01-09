@@ -1635,10 +1635,23 @@ span.icon-love:before {
 @media (min-width: 768px){
 	button, input, optgroup, select, textarea {font-size: .75em}
 	input.field.s {width: 100%;}
+
+	.container {
+		width: 90%;
+	}
 	
 	/* NAV MENUS --------------------------------------------------------- 768px */
 	.search.col-sm-1 {
 		width: 100%;
+	}
+	#main-menu .navbar-toggle {
+		margin-right: 60px;
+	}
+	#main-menu .search {
+		margin-right: 3em;
+	}
+	.btn-default .pull-right {
+		float: none;
 	}
 	
 	/* CONTENT --------------------------------------------------------- 768px */
@@ -1723,6 +1736,9 @@ span.icon-love:before {
 		flex-direction: column;
 		justify-content: center;
 		margin: 0;
+	}
+	.foot-text-align.col-sm-6 {
+		padding: 0;
 	}
 	#foot-content.row {
 		flex-direction: row;
