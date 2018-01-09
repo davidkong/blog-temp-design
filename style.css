@@ -1532,6 +1532,7 @@ span.icon-love:before {
 	.foot-join-us { /* html button */
 		height: 4em;
 		margin-top: 2em;
+		padding: 0 20%;
 		border-width: 2px;
 		border-color: #6D66FE;
 		border-radius: 4px;
@@ -1549,7 +1550,6 @@ span.icon-love:before {
 		align-items: center;
 		justify-content: center;
 		align-self: center;
-		width: 200px;
 		height: 50px;
 		margin-top: 1em;
 	}
@@ -1702,8 +1702,18 @@ span.icon-love:before {
 	}
 
 	/* CONTENT - FOOTER --------------------------------------------------------- 768px */
+	#foot-content {
+		text-align: left;
+		margin: 0 2em;
+	}
 	.footer-widget.col-sm-offset-3.col-sm-3 {
 		display: block;
+	}
+	.widget_nav_menu h3 {
+		opacity: 0.6;
+	}
+	.footer-widget.col-sm-6 {
+		width: 100%;
 	}
 	#foot-text.row {
 		flex-direction: row;
@@ -1712,7 +1722,16 @@ span.icon-love:before {
 		margin: 0;
 	}
 	#foot-content.row {
-		flex-direction: column;
+		flex-direction: row;
+	}
+	.foot-action-main {
+
+	}
+	.foot-action-buttons {
+
+	}
+	.foot-join-us {
+		margin-left: 0.6em;
 	}
 }
 

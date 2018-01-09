@@ -16,20 +16,23 @@
 		
 			<div class="container foot-container">
 				<div id="foot-content" class="row row-eq-height">
-				
-					<div class="footer-widget col-sm-6">
-						<div class="logo-box col">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php  do_action( 'high_add_logo', 10, 2 );?><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+					<div class="foot-action-main">
+						<div class="footer-widget col-sm-6">
+							<div class="logo-box col">
+									<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php  do_action( 'high_add_logo', 10, 2 );?><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+								</div>
+							<?php dynamic_sidebar('lfoot_sidebar'); ?>
+						</div>
+						<div class="foot-action-buttons">
+							<button class="foot-join-us">
+								<p class="foot-join-us-text">Want to join us?</p>
+							</button>
+							<div class="explore-frame-align">
+								<p class="explore-frame-text">Explore Frame.io</p>
+								<div class="explore-frame-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/explore-frame-arrow.png"/>
+								</div>
 							</div>
-						<?php dynamic_sidebar('lfoot_sidebar'); ?>
-					</div>
-					<button class="foot-join-us">
-						<p class="foot-join-us-text">Want to join us?</p>
-					</button>
-					<div class="explore-frame-align">
-						<p class="explore-frame-text">Explore Frame.io</p>
-						<div class="explore-frame-arrow">
-							<img src="<?php echo get_template_directory_uri();?>/images/explore-frame-arrow.png"/>
 						</div>
 					</div>
 					<div class="footer-widget col-sm-offset-3 col-sm-3">
