@@ -1652,9 +1652,22 @@ span.icon-love:before {
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
 	.author .author-row{
 		display: block;
-		padding: 6em;
+		padding: 2em 1em 3em 1em;
 	}
 	.info-link { margin: 0 1.5em;}
+	.author-profile.col-sm-9 {
+		width: 70%;
+	}
+	.author-img.col-sm-3 {
+		margin-top: 2em;
+	}
+	.author-info.col-sm-3 {
+		padding-left: 1em;
+		padding-top: 1em;
+	}
+	.info-link {
+		opacity: 0.6;
+	}
 	
 	/* CONTENT - CATEGORIES --------------------------------------------------------- 768px */
 	.single-post-cat,
