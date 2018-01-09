@@ -1733,12 +1733,21 @@ span.icon-love:before {
 	}
 	.foot-action-buttons {
 		display: flex;
-		flex-direction: row;
-		margin-top: 1em;
-		margin-bottom: 5em;
+		flex-direction: column;
+		margin-top: 2em;
+		margin-bottom: 4.5em;
 	}
 	.foot-join-us {
+		margin-top: 0;
 		margin-left: 0.6em;
+		padding: 0 15px;
+		width: 200px;
+	}
+	.explore-frame-align {
+		width: 200px;
+		margin-top: 1em;
+		margin-left: 0.6em;
+		align-self: flex-start;
 	}
 	.social-icon-wrap {
 		padding-top: 0;
