@@ -485,7 +485,7 @@ a.fancybox-item.fancybox-close:after {
 .navbar-nav li.active a,
 .navbar-nav li.disabled {
 	cursor: pointer;
-	padding: 2.55rem;
+	padding: 2rem;
 	color: #267095;
 	font-size: 16px;
 	text-decoration: none;
@@ -1799,13 +1799,27 @@ span.icon-love:before {
 		max-width: none;
 		float: left;
 	}
+	.search {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.navbar {
+		margin-bottom: 0;
+	}
+	button.btn.btn-default.fancybox {
+		padding-right: 0;
+	}
 	.logo-box img{max-width: 100%;}
 	.fancybox-overlay.fancybox-overlay-fixed {top: 145px;}
 	#main-menu .navbar-nav.top-drop-menu>li>a{text-transform: capitalize;}
 			
 	/* NAV - MAIN MENUS --------------------------------------------------------- 1100px */
 	.mobile-logo-wrap{display: none;}
-	.pull-right{margin-top: 3.75em; padding-right: 0;}
+	.pull-right {
+		margin-top: 0; 
+		padding-right: 0;
+	}
 	
 	#main-menu { margin-top: 2.3em;}
 	#main-menu .navbar-header {float: left;}
@@ -1817,7 +1831,7 @@ span.icon-love:before {
 		right: auto;
 		width: auto;
 		max-width: none;
-    margin-top: 2.75em;
+    margin-top: 0;
 		margin-left: 0;
 		margin-right: 0; 
 		float: left;
@@ -1863,7 +1877,21 @@ span.icon-love:before {
 	#main-menu .navbar-nav li:first-child a, 
 	#main-menu .navbar-nav li:first-child a:hover {padding-left: 0;}
 	#main-menu .collapse.in {display: none !important;}
-	
+	.search-icon-desk-align {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 0.5em;
+	}
+	.search.col-sm-1 {
+		width: 8.33333%;
+	}
+	#main-menu .search {
+		margin-top: 0.5em;
+		margin-right: 0;
+	}
+
+
 	/* NAV - TOP MENU --------------------------------------------------------- 1100px */
 	#butt {
 		float: right;

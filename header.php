@@ -117,7 +117,7 @@
 							</a>
 						</div>
 					
-						<div>	
+						<div class="search-icon-desk-align">	
 							<div>
 								<!-- hamburger menu (right) -->
 								<nav class="navbar">
