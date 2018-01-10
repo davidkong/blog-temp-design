@@ -1050,6 +1050,12 @@ span.icon-love:before {
 	}
 	.single-post header.entry-header {height: auto;}
 	.logo-box.col {padding-left: 1em;}
+	.logo-box-form {
+		display: none;
+	}
+	.logo-box-sign-up {
+		display: none;
+	}
 	.fancybox-lock button.btn.btn-default.fancybox { display: none;}
 	.fancybox-overlay.fancybox-overlay-fixed { top: 70px;}
 	.fancybox-close {
@@ -1795,9 +1801,42 @@ span.icon-love:before {
 	.single-post header.entry-header{height: auto;}
 	.top-head{display: block; background-color:#2A273D;}
 	.logo-box.col {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 		padding-left: 0;
 		max-width: none;
 		float: left;
+	}
+	.logo-box-form {
+		display: flex;
+	}
+	.logo-box-sign-up { /* div containing two inputs below */
+		display: flex;
+		float: none;
+		width: 100%;
+	}
+	.logo-box-sign-up input[type="text"] {
+		padding: 6px 0 6px 12px;
+		width: 180px;
+		border-radius: 6px;
+	}
+	.logo-box-sign-up input[type="submit"] {
+		background: none;
+		padding: 0;
+		margin-left: 1em;
+		width: 140px;
+		color: #5a52ff;
+		font-size: 12px;
+		font-family: 'Avenir-Black';
+		border: 1px solid #5a52ff;
+		border-radius: 6px;
+		box-shadow: none;
+		-webkit-appearance: none;
+		letter-spacing: 1px;
+	}
+	.logo-box-sign-up ::placeholder {
+		opacity: 0.6;
 	}
 	.search {
 		display: flex;
@@ -1900,7 +1939,7 @@ span.icon-love:before {
 	.button-wrap{
 		position: relative;
 		margin: 0 auto;
-		padding-right: 0;
+		padding-right: 1em;
 		z-index: 999;
 	}
 	#butt.navbar-toggle {
@@ -2285,7 +2324,7 @@ span.icon-love:before {
 
 /* 1300px ------------------------------------------------------------------------------ 1300px */
 @media (min-width: 1300px){
-	
+
 	/* PAGE STRUCTURE --------------------------------------------------------- 1200px */
 	.container{ width: 1200px;}
 	

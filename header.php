@@ -106,15 +106,23 @@
 					
 						<!-- frame.io logo (left) -->
 						<div class="logo-box col">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
-								 title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
-								 rel="home"
-							>
-								<?php do_action( 'high_add_logo', 10, 2 );?>
-								<h1 class="site-title">
-									<?php bloginfo( 'name' ); ?>
-								</h1>
-							</a>
+							<div class="logo-box-logo">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
+									 title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
+									 rel="home"
+								>
+									<?php do_action( 'high_add_logo', 10, 2 );?>
+									<h1 class="site-title">
+										<?php bloginfo( 'name' ); ?>
+									</h1>
+								</a>
+							</div>
+							<div class="logo-box-form">
+								<div class="logo-box-sign-up">
+									<input type="text" placeholder="Email Address">
+									<input type="submit" value="SUBSCRIBE">
+								</div>
+							</div>
 						</div>
 					
 						<div class="search-icon-desk-align">	
