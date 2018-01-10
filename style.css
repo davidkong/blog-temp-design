@@ -2329,15 +2329,20 @@ span.icon-love:before {
 	.foot-container{ padding: 5em 0 1em;}
 	#foot-content {
 		width: auto;
-		margin-right: 8%;
-		margin-left: 8%;
 		text-align: left;
 	}
 	.foot-text{text-align: left;}
 	.social-icon-wrap {
-		max-width: 200px;
 		padding-top: 0;
 		text-align: left;
+	}
+	.foot-action-buttons {
+		flex-direction: row;
+	}
+	.explore-frame-align {
+		margin: 0;
+		height: 4em;
+		padding-left: 1em;
 	}
 }
 
