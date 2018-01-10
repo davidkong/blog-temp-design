@@ -2060,6 +2060,9 @@ span.icon-love:before {
 		text-transform: capitalize;
 	}
 	#filter {top: -4.8em;}
+	h3.author-role {
+		font-size: 24px;
+	}
 	
 	/* CONTENT --------------------------------------------------------- 1100px */
 	.author-name{float: left;}
@@ -2074,6 +2077,10 @@ span.icon-love:before {
 		margin: 1em auto;
 		font-size: 20px;
 		letter-spacing: .5px;
+	}
+	.author-img.col-sm-3 {
+		padding-right: 0;
+		margin-top: 0;
 	}
 	
 	/* CONTENT - HOME/FRONT --------------------------------------------------------- 1100px */
@@ -2198,9 +2205,12 @@ span.icon-love:before {
 	.author-details-row{padding: 3em ;}
 	.author-info {
 		position: relative;
-		margin-top: 4em;
+		margin: 0;
 	}
-	.info-link { margin: 0 auto;}
+	.info-link {
+		margin-left: 2em;
+		margin-top: 1em;
+	}
 	.author-profile .info-link {margin: 0 1.75em;}
 	
 	/* CONTENT - SINGLES --------------------------------------------------------- 1100px */
@@ -2278,6 +2288,9 @@ span.icon-love:before {
 	}
 	.author-profile{margin-top: -4em;}
 	.author-row .author-profile{margin-top: 0;}
+	.row.author-row {
+		padding: 4em 5em 5em 5em;
+	}
 	.author-img{padding-left: 0;}
 	.single .author-info { color: #84828d !important; font-family: 'Avenir-Book'; padding-left: .5em;}
 	.author-post.col-sm-4 {margin-top: 3em;}
