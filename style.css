@@ -1346,6 +1346,7 @@ span.icon-love:before {
 	.featured-post {
 		position: relative;
 		background-color: #ffffff;
+		border-radius: 12px;
 		top: 27vh;
 		left: 0;
 		width: 90vw;
@@ -1382,6 +1383,8 @@ span.icon-love:before {
 		margin-bottom: 0;
 	}
 	.blog-content.content.row {
+		display: flex;
+		flex-direction: column;
 		margin-top: -5em;
 		margin-bottom: 5em;
 	}
