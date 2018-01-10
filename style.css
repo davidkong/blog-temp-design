@@ -1388,6 +1388,10 @@ span.icon-love:before {
 		margin-top: -5em;
 		margin-bottom: 5em;
 	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
 	span.single-post-date.post-date.small { float: none;}
 	figure.wp-caption {margin: 1.5em 1em 5em;}
 	.blog-post-date.post-date.small {font-size: 12px;}
