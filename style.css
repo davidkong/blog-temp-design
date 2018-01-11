@@ -2120,7 +2120,10 @@ span.icon-love:before {
 	/* CONTENT - HOME/FRONT --------------------------------------------------------- 1100px */
 	.blog-container.container {margin-top: 0;}
 	.home-container{padding-right: 0; margin-top: -5em;}
-	.blog-content.content.row{padding-top: 5em;}
+	.blog-content.content.row {
+		display: block;
+		padding-top: 5em;
+	}
 	.feature-wrap.col {
 		top: -300px;
 	}
@@ -2149,6 +2152,7 @@ span.icon-love:before {
 		width: 86.5%;
 		height: auto;
 		max-height: 425px;
+		margin-bottom: 0;
 	}
 	.col-sm-12 .blog-content{
 		border-top-right-radius: 12px;
@@ -2162,6 +2166,8 @@ span.icon-love:before {
 		padding-right: 22.12px;
 		padding-left: 0;
 		margin-top: 0;
+		margin-bottom: 10em;
+		max-height: 350px;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 0;
 		border-bottom-right-radius: 12px;
