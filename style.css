@@ -1693,6 +1693,9 @@ span.icon-love:before {
 	.feature-thumb img {
 		border-radius: 12px;
 	}
+	.featured-content {
+		margin-top: 1em;
+	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
 	.author .author-row{
