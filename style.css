@@ -1374,15 +1374,15 @@ span.icon-love:before {
 		border-bottom-left-radius: 12px;
 		box-shadow: 0px 4px 50px rgba(0,0,0,0.1);
 	}
-	.entry-header{
+	.entry-header {
 		background-color: #fff;
 		top: -222px;
 		left: 0;
-		width: 92.5%;
 		height: auto;
 		max-height: none;
-		padding: 2.5em;
+		padding: 2em 1em;
 		z-index: 999;
+		border-radius: 0;
 	}
 	.feature-thumb {
 		position: absolute;
@@ -1463,6 +1463,10 @@ span.icon-love:before {
 		font-size: .85em;
 	}
 	.entry-content img{margin-top: 1.5em; margin-bottom: 1.5em;}
+	.single-post-meta {
+		display: flex;
+		justify-content: space-between;
+	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 320px */
 	.single .author-bio-row,

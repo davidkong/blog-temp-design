@@ -29,8 +29,20 @@ $id = $curauth->ID;
 								
 						<div class="entry-header">
 							<div class="single-post-meta">	
-									
-								<span class="single-post-cat <?php echo $category[0]->slug; ?>"><?php  get_category_link($category[0]->cat_ID); ?><?php the_category(', ');?></span><span class="read-time"><?php echo high_reading_time();?></span>		<span class="single-post-date post-date small"><?php the_time( get_option( 'date_format' ) ); ?></span>
+								<div>
+									<span class="single-post-cat <?php echo $category[0]->slug; ?>">
+										<?php  get_category_link($category[0]->cat_ID); ?>
+										<?php the_category(', ');?>
+									</span>
+									<span class="read-time">
+										<?php echo high_reading_time();?>
+									</span>
+								</div>
+								<div>
+									<span class="single-post-date post-date small">
+										<?php the_time( get_option( 'date_format' ) ); ?>
+									</span>
+								</div>
 							</div>			
 										
 							<h1 class="post-meta-title"><a href="<?php echo get_permalink( $post->ID ); ?>"><?php the_title(); ?></a></h1>				
