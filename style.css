@@ -1347,9 +1347,9 @@ span.icon-love:before {
 		position: relative;
 		background-color: #ffffff;
 		border-radius: 12px;
-		top: 27vh;
+		top: 50vmin;
 		left: 0;
-		width: 90vw;
+		width: 102vmin;
 		height: auto;
 		padding: 1.6em;
 	}
@@ -1416,7 +1416,7 @@ span.icon-love:before {
 		padding-right: 0;
 		padding-left: 0;
 		margin-top: 0;
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 	}
 	.info-box {
 		background-color: #d2d1f9;
@@ -1633,6 +1633,13 @@ span.icon-love:before {
 	}
 }
 
+@media (min-width: 460px){
+	#filter {
+		margin-top: 5em;
+	}
+}
+
+
 /* 520px ------------------------------------------------------------------------------ 520px */
 @media (min-width: 520px){
 	#main-menu .navbar-toggle[aria-expanded="true"]:after {left: -87vw;}
@@ -1682,6 +1689,9 @@ span.icon-love:before {
 	#foot-text .col-sm-3:first-of-type{ padding-left: 0;} 
 	.post-content.col-md-4 {
 		margin: 0 1em;
+	}
+	.feature-thumb img {
+		border-radius: 12px;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */

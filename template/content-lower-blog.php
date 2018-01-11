@@ -5,6 +5,7 @@
  *
  *  */
 ?>
+	<div>
 		<div id="filter">
 				<a href="#" id="recent_posts" class="post-filter active"> Recent</a>
 				  <span class="selected-posts"><span class="filter-background"></span></span> 
@@ -116,4 +117,5 @@
 				
 		</div>
 		</div>
+	</div>
 		
