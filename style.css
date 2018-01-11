@@ -1670,6 +1670,20 @@ span.icon-love:before {
 	h1{font-size: 30px;}
 }
 
+/* 600px ------------------------------------------------------------------------------ 600px */
+@media (min-width: 600px) {
+	.featured-post {
+		position: relative;
+		background-color: #ffffff;
+		border-radius: 12px;
+		top: 32vh;
+		left: 0;
+		width: 102vmin;
+		height: auto;
+		padding: 1.6em;
+	}
+}
+
 /* MAX - 767px ------------------------------------------------------------------------------ MAX - 767px */
 @media (max-width: 767px){
 	.fancybox-opened {
@@ -1718,6 +1732,9 @@ span.icon-love:before {
 	}
 	.featured-content {
 		margin-top: 1em;
+	}
+	.featured-post {
+		width: 650px;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
