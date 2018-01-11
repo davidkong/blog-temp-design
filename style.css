@@ -904,6 +904,7 @@ figure.wp-caption img.size-full {
 }
 .archive-title {
 	font-size: 26px;
+	text-transform: capitalize;
 	margin: 0.5em 0;
 }
 
