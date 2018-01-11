@@ -900,6 +900,11 @@ figure.wp-caption img.size-full {
 
 .archive .cat-archive header.archive-header {
   height: auto;
+  padding: 0 1em;
+}
+.archive-title {
+	font-size: 26px;
+	margin: 0.5em 0;
 }
 
 /* CONTENT - AUTHOR
@@ -1326,6 +1331,12 @@ span.icon-love:before {
 		border-top-left-radius: 50%;
 		border-bottom-left-radius: 50%;
 	}
+	.archive .cat-archive header.archive-header {
+	  padding: 0 2em;
+	}
+	div.blog-content.row {
+		display: block;
+	}
 	
 	/* CONTENT - HOME/FRONT --------------------------------------------------------- 320px */
 	.home-container {margin-top: 6em;}
@@ -1516,6 +1527,7 @@ span.icon-love:before {
 	.author-post.col-sm-4 {margin-top: 3em;}
 	.post-content.col-md-4 {
 		padding: 0;
+		margin-bottom: 1em;
 	}
 	.navigation li a,
 	.navigation li a:hover,
@@ -1529,7 +1541,15 @@ span.icon-love:before {
 		background-color: #eeeef0;
 		margin-top: 3em;
 	}
-	.cat-container{  padding: 3em 0;}
+	.cat-container{ 
+		padding: 3em 0;
+	}
+	.cat-head {
+		text-transform: uppercase;
+		opacity: 0.5;
+		font-size: 12px;
+		letter-spacing: 0.4px;
+	}
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
 	.foot-container { 
@@ -2118,6 +2138,9 @@ span.icon-love:before {
 	.featured-content {
 		height: 220px;
 	}
+	.archive .cat-archive header.archive-header {
+	  padding: 0 1em;
+	}
 	
 	/* CONTENT - HOME/FRONT --------------------------------------------------------- 1100px */
 	.blog-container.container {margin-top: 0;}
@@ -2125,6 +2148,9 @@ span.icon-love:before {
 	.blog-content.content.row {
 		display: block;
 		padding-top: 5em;
+	}
+	div.blog-content.row {
+		display: block;
 	}
 	.feature-wrap.col {
 		top: -300px;
@@ -2245,6 +2271,7 @@ span.icon-love:before {
 	.post-content.col-md-4 {
 		margin-left: 0;
 		margin-right: 0;
+		margin-bottom: 3em;
 		padding: 0 1em;
 	}
 	.author-content.row article.post-content.col-md-4:first-of-type {padding-left: 0;}
@@ -2348,6 +2375,12 @@ span.icon-love:before {
 	}
 	.read-time {
 		opacity: 0.6;
+	}
+	.archive-title {
+		font-size: 42px;
+	}
+	.cat-container {
+		padding: 6em 0 1em 0;
 	}
 	
 	/* FOOTER --------------------------------------------------------- 1100px */
