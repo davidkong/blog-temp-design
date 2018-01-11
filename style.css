@@ -795,8 +795,7 @@ figure.single-thumb img {
 	max-height: 900px;
 	z-index: 0;
 }
-.single-thumb img{
-	width: 100%;
+.single-thumb img {
 	max-height: 680px;
 }
 .entry-content{
