@@ -322,7 +322,8 @@ iframe {
 
 .wp-caption {}
 .wp-caption-text {
-	padding-left: 1em;
+	padding: 0 1em;
+	max-width: 100vw;
 }
 .bypostauthor{}
 .alignleft {
@@ -813,7 +814,7 @@ figure.wp-caption {
 figure.wp-caption img {
   display: block;
   float: none;
-  margin: 1.5em auto;
+  margin: 1.5em 0;
 }
 figure.wp-caption img.size-full {
   margin: 1.5em auto 1.5em 0;
