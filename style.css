@@ -1377,12 +1377,15 @@ span.icon-love:before {
 	.featured-post {
 		position: relative;
 		background-color: #ffffff;
-		border-radius: 12px;
 		top: 50vmin;
 		left: 0;
 		width: 102vmin;
 		height: auto;
 		padding: 1.6em;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
 	}
 	.blog-post a, 
 	.featured-post a {font-family: 'Avenir-Heavy';}
@@ -1804,12 +1807,15 @@ span.icon-love:before {
 	.featured-post {
 		position: relative;
 		background-color: #ffffff;
-		border-radius: 12px;
 		top: 32vh;
 		left: 0;
 		width: 102vmin;
 		height: auto;
 		padding: 1.6em;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
 	}
 }
 
@@ -1864,6 +1870,19 @@ span.icon-love:before {
 	}
 	.featured-post {
 		width: 650px;
+	}
+	.single-thumb img {
+		border-top-right-radius: 12px;
+		border-top-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 0;
+	}
+	.entry-header {
+		width: 85vw;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
@@ -2306,7 +2325,10 @@ span.icon-love:before {
 		top: 25%;
 		width: 42.25%;
 		padding: 4em;
-		border-radius: 12px;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
 	}
 	.feature-thumb {
 		left: 33.333333%;
