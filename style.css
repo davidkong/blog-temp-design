@@ -1772,6 +1772,9 @@ span.icon-love:before {
 	div.navigation ul {
 		margin-left: -30px;
 	}
+	#disqus_thread {
+		margin: 0 1em;
+	}
 }
 
 /* 375px ------------------------------------------------------------------------------ 375px */
