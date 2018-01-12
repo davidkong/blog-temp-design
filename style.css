@@ -1552,6 +1552,47 @@ span.icon-love:before {
 	.author-thanks.col-md-8 {
 		padding: 0;
 	}
+	.author-thanks-url {
+		color: #5A52FF !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Avenir-Black';
+	}
+	.author-thanks-url-align {
+		margin: 1em 0;
+	}
+	.author-thanks-info { 
+		margin: 1em 0;
+		padding-left: 2em;
+		-webkit-box-ordinal-group: 3;  
+		-moz-box-ordinal-group: 3;     
+		-webkit-order: 3;
+		-ms-flex-order: 3;
+		order: 3;
+	}
+	.thanks-info-link {
+		position: relative;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 7px;
+    width: 50%;
+    font-size: 14px;
+    text-align: left;
+	}
+	.thanks-info-link:before{
+		content: ' ';
+	  position: absolute;
+	  top: 5px;
+	  left: -21px;
+	  width: 18px;
+	  height: 18px;
+	  font-size: 14px;
+	}
+	.thanks-info-link.twitter:before { content: url(images/author-twitter.png); }
+	.thanks-info-link.other:before { content: url(images/author-other.png); }
+	.thanks-info-link.linked:before { content: url(images/author-linked.png); }
 	h3.author-thanks-role {
 		margin-top: 0;
 		margin-bottom: 0;

@@ -35,14 +35,14 @@ $id =  get_the_author_meta( 'ID' );
 								
 						<article id="post-<?php the_ID(); ?>"  class="author-descript">
 							<?php echo get_the_author_meta( 'description' ); ?>
-							<div>		
-								<a class="author-bio-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?>
+							<div class="author-thanks-url-align">		
+								<a class="author-thanks-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?>
 								</a>
 							</div>
 						</article>
 					</div>
 
-					<div class="author-info col-md-4"><!-- social media -->	
+					<div class="author-thanks-info col-md-4"><!-- social media -->	
 						<?php 
 								// get author contact info 
 								$twitter =  get_user_meta($id, 'twitter', true);
@@ -51,19 +51,19 @@ $id =  get_the_author_meta( 'ID' );
 								
 						?>
 						<?php if($twitter != "") :  ?>
-							<span class="info-link twitter">
+							<span class="thanks-info-link twitter">
 									<?php echo '<a href="https://twitter.com/@' . $twitter . '" target="_blank" > @' . $twitter . '</a>' ; ?>
 							</span>
 						<?php endif; ?>
 						
 						<?php if($other != "") :  ?>	
-							<span class="info-link other">
+							<span class="thanks-info-link other">
 									<?php echo '<a href="' . $other . '" target="_blank" > ' . $other . '</a>' ; ?>
 							</span>
 						<?php endif; ?>	
 						
 						<?php if($linked != "") :  ?>
-							<span class="info-link linked">
+							<span class="thanks-info-link linked">
 									<?php echo '<a href="https://www.linkedin.com/in/' . $linked . '" target="_blank" > ' . $linked . '</a>' ; ?>
 							</span>
 						<?php endif; ?>					
