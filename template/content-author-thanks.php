@@ -20,16 +20,27 @@ $id =  get_the_author_meta( 'ID' );
 		<div class="row author-thanks-row">
 		
 			<div class="author-details container">
-				<div class="row author-details-row">
+				<div class="row author-thanks-details-row">
 			
 					<div class="author-img col-md-4">
 					
 									<div class="author-meta">							
-										<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p>
+										<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-thanks-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p>
 									</div>
 					</div>
-					<div class="author-info col-md-4">
-						
+
+					<div class="author-profile col-md-8">
+						<header class="author-head">
+							<h3 class="author-role">Thank you to <?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?> for contributing to this article.</h3>
+						</header>
+								
+						<article id="post-<?php the_ID(); ?>"  class="author-descript">
+							<?php echo get_the_author_meta( 'description' ); ?>			
+							<a class="author-bio-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?></a>
+						</article>
+					</div>
+
+					<div class="author-info col-md-4"><!-- social media -->	
 						<?php 
 								// get author contact info 
 								$twitter =  get_user_meta($id, 'twitter', true);
@@ -53,28 +64,7 @@ $id =  get_the_author_meta( 'ID' );
 							<span class="info-link linked">
 									<?php echo '<a href="https://www.linkedin.com/in/' . $linked . '" target="_blank" > ' . $linked . '</a>' ; ?>
 							</span>
-						<?php endif; ?>
-							
-						
-						
-					</div>
-					<div class="author-profile col-md-8">
-						
-						<header class="author-head">
-							<h3 class="author-role">Thank you to <?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?> for contributing to this article.</h3>
-						</header>
-						
-						
-						<article id="post-<?php the_ID(); ?>"  class="author-descript">
-						
-
-							<?php echo get_the_author_meta( 'description' ); ?>
-							
-							<a class="author-bio-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?></a>
-
-						</article>
-						
-						
+						<?php endif; ?>					
 					</div>
 					
 					<section class="contribute col-md-12">

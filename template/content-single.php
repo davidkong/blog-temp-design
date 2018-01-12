@@ -103,7 +103,7 @@ $id = $curauth->ID;
 				
 				<div class="author-bio-container container">
 					<div class="row">
-						<div class="author-bio col-md-8">
+						<div class="author-thanks col-md-8">
 							<?php get_template_part( 'template/content', 'author-thanks' ); ?>
 						</div>
 						<div class="author-post col-md-4">

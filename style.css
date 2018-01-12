@@ -1537,6 +1537,16 @@ span.icon-love:before {
 		background-color: #eeeef0;
 		padding: 1.5em ;
 	}
+	.author-thanks-details-row {
+		background-color: #eeeef0;
+		padding: 2em 0;
+	}
+	.author-thanks-name {
+		margin-top: 1em;
+	}
+	.author-thanks.col-md-8 {
+		padding: 0;
+	}
 	.author-content { 
 		margin-bottom: 0;
 		display: flex;
