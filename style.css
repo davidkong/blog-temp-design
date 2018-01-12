@@ -1292,11 +1292,13 @@ span.icon-love:before {
 	}
 	.contribute-heading,
 	h3.author-role {
-		margin-top: 0;
-	  color:  #84828d !important;
+		margin-top: 0;;
 	  font-size: 1.2em;
 	  line-height: 1.3;
 	  text-transform: capitalize;
+	}
+	.contribute-content p {
+		padding: 0 1em;
 	}
 	.contribute-heading{margin-top: 1em;}
 	
@@ -1563,7 +1565,7 @@ span.icon-love:before {
 		margin: 1em 0;
 	}
 	.author-thanks-info { 
-		margin: 1em 0;
+		margin: 1em 0 2em 0;
 		padding-left: 2em;
 		-webkit-box-ordinal-group: 3;  
 		-moz-box-ordinal-group: 3;     
