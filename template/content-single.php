@@ -45,10 +45,25 @@ $id = $curauth->ID;
 								</div>
 							</div>			
 										
-							<h1 class="post-meta-title"><a href="<?php echo get_permalink( $post->ID ); ?>"><?php the_title(); ?></a></h1>				
+							<h1 class="post-meta-title">
+								<a href="<?php echo get_permalink( $post->ID ); ?>">
+									<?php the_title(); ?>
+								</a>
+							</h1>				
 							
 							<div class="author-meta">							
-								<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p><p class="author-email"><?php echo get_the_author_meta( 'user_email'); ?></p>
+								<figure class="author-avatar">
+									<?php echo get_avatar( get_the_author_meta('ID'), 60); ?>
+								</figure>
+								<div class="author-details-align">
+									<p class="author-name">
+										<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
+											<?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a>
+									</p>
+									<p class="author-email">
+										<?php echo get_the_author_meta( 'user_email'); ?>
+									</p>
+								</div>
 							</div>				
 						</div><!-- .entry-header -->
 								

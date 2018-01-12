@@ -1244,7 +1244,11 @@ span.icon-love:before {
 	.navbar{margin-top:0;}
 
 	/* PAGE STRUCTURE - TITLES --------------------------------------------------------- 320px */
-	h1{font-size: 2em; font-family: 'Avenir-Heavy';}
+	h1 {
+		font-size: 2em; 
+		font-family: 'Avenir-Heavy';
+		line-height: 1.4;
+	}
 	h2,h3{font-size: 1.75em; font-family: 'Avenir-Heavy';}
 	h4{font-size: 1.125em;}
 	h5{font-size: 1em;}
@@ -1352,7 +1356,16 @@ span.icon-love:before {
 		font-family: 'Avenir-Roman'; 
 		font-size: .8em;
 	}
-	.entry-header, 
+	.entry-header {
+		position: relative;
+		background-color: #ffffff;
+		border-radius: 12px;
+		top: 50vmin;
+		left: 0;
+		width: 100vw;
+		height: auto;
+		padding: 1.6em;
+	}
 	.blog-post, 
 	.featured-post {
 		position: relative;
@@ -1455,7 +1468,7 @@ span.icon-love:before {
 	.info-link {width: 22%;}
 	.single figure.author-avatar{
 		float: none;
-		margin: 0 auto;
+		align-self: center;
 	}
 	.entry-content p {
 		max-width: 75%;
@@ -1477,6 +1490,21 @@ span.icon-love:before {
 	.single-post-date {
 		font-size: 12px;
 		opacity: 0.6;
+	}
+	.author-meta {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	p.author-name {
+		margin-top: 0;
+	}
+	p.author-email {
+		margin-bottom: 0;
+		opacity: 0.6;
+	}
+	.author-details-align {
+		padding: 1em 0;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 320px */
