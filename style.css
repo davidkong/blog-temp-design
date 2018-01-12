@@ -1271,10 +1271,13 @@ span.icon-love:before {
 	.single .entry-content h3,
 	.single .entry-content h2{
 		max-width: 75%;
-		margin: 1em auto 1em;
+		margin: 2em 1em 1em 1em;
 		color: #2a273d;
 		font-size: 18px;
 		font-weight: 900;
+	}
+	.single .entry-content li {
+		padding: 0 1em 0 0;
 	}
 	.single .entry-content h1{font-size: 2em;}
 	.more-author {
@@ -1471,9 +1474,8 @@ span.icon-love:before {
 		align-self: center;
 	}
 	.entry-content p {
-		max-width: 75%;
 		margin: 1em;
-		font-size: .85em;
+		font-size: 16px;
 	}
 	.entry-content img{margin-top: 1.5em; margin-bottom: 1.5em;}
 	.single-post-meta {
