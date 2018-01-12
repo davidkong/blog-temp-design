@@ -320,8 +320,10 @@ iframe {
 /* WORDPRESS-SPECIFIC
 ----------------------------------------------------------------------*/
 
-.wp-caption{}
-.wp-caption-text{}
+.wp-caption {}
+.wp-caption-text {
+	padding-left: 1em;
+}
 .bypostauthor{}
 .alignleft {
 	display: inline;
@@ -1269,8 +1271,7 @@ span.icon-love:before {
 	}
 	.single .entry-content h1,
 	.single .entry-content h3,
-	.single .entry-content h2{
-		max-width: 75%;
+	.single .entry-content h2 {
 		margin: 2em 1em 1em 1em;
 		color: #2a273d;
 		font-size: 18px;
@@ -1419,7 +1420,6 @@ span.icon-love:before {
 		margin-right: 0;
 	}
 	span.single-post-date.post-date.small { float: none;}
-	figure.wp-caption {margin: 1.5em 1em 5em;}
 	.blog-post-date.post-date.small {font-size: 12px;}
 	#post-cta {
 		margin-top: 3em;
