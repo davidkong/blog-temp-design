@@ -660,7 +660,7 @@ h6{
 .entry-content h2,
 .entry-content h3 {
   max-width: 820px;
-  margin: 1em 0 .5em;
+  margin: 1em 0.5em;
 }
 .error404 h3, 
 .search-no-results h3 {
@@ -1472,7 +1472,7 @@ span.icon-love:before {
 	}
 	.entry-content p {
 		max-width: 75%;
-		margin: 1em auto 1em;
+		margin: 1em;
 		font-size: .85em;
 	}
 	.entry-content img{margin-top: 1.5em; margin-bottom: 1.5em;}
@@ -1505,6 +1505,9 @@ span.icon-love:before {
 	}
 	.author-details-align {
 		padding: 1em 0;
+	}
+	#single-content .row {
+		display: block;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 320px */
