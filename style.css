@@ -1928,6 +1928,9 @@ span.icon-love:before {
 	.post-content.col-md-4 {
 		width: 96.5%;
 	}
+	.author-thanks-details-row {
+		padding: 2em 1.5em;
+	}
 	
 	/* CONTENT - CATEGORIES --------------------------------------------------------- 768px */
 	.single-post-cat,
