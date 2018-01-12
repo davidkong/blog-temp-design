@@ -23,20 +23,22 @@ $id =  get_the_author_meta( 'ID' );
 				<div class="row author-thanks-details-row">
 			
 					<div class="author-img col-md-4">
-					
 									<div class="author-meta">							
 										<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-thanks-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p>
 									</div>
 					</div>
 
-					<div class="author-profile col-md-8">
-						<header class="author-head">
-							<h3 class="author-role">Thank you to <?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?> for contributing to this article.</h3>
+					<div class="author-thanks-profile col-md-8">
+						<header class="author-thanks-head">
+							<h3 class="author-thanks-role">Thank you to <?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?> for contributing to this article.</h3>
 						</header>
 								
 						<article id="post-<?php the_ID(); ?>"  class="author-descript">
-							<?php echo get_the_author_meta( 'description' ); ?>			
-							<a class="author-bio-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?></a>
+							<?php echo get_the_author_meta( 'description' ); ?>
+							<div>		
+								<a class="author-bio-url" href="<?php echo get_author_posts_url( $id); ?>">See more posts from <?php echo get_the_author_meta( 'first_name'); ?>
+								</a>
+							</div>
 						</article>
 					</div>
 
@@ -68,15 +70,10 @@ $id =  get_the_author_meta( 'ID' );
 					</div>
 					
 					<section class="contribute col-md-12">
-						<article class="contribute-content">
-						
-							<h3 class="contribute-heading col-md-4">Interested in contributing?</h3>
-							
-							<p>This blog relies on people like to step in and add your voice. Send us an email: blog at frame.io. If you have an idea for a posr ot want to write one yourself.</p>
-						
-						
+						<article class="contribute-content">					
+							<h3 class="contribute-heading col-md-4">Interested in contributing?</h3>							
+							<p>This blog relies on people like to step in and add your voice. Send us an email: blog at frame.io. If you have an idea for a posr ot want to write one yourself.</p>	
 						</article">
-					
 					</section>
 					
 				</div>	

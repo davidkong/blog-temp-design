@@ -1543,8 +1543,24 @@ span.icon-love:before {
 	}
 	.author-thanks-name {
 		margin-top: 1em;
+		opacity: 0.6;
+		font-family: 'Avenir-Heavy';
+	}
+	.author-thanks-profile {
+		padding: 0 1em;
 	}
 	.author-thanks.col-md-8 {
+		padding: 0;
+	}
+	h3.author-thanks-role {
+		margin-top: 0;
+		margin-bottom: 0;
+	  font-size: 1.2em;
+	  line-height: 1.5;
+	}
+	header.author-thanks-head {
+		margin: 1.2em 0;
+		height: 100%;
 		padding: 0;
 	}
 	.author-content { 
