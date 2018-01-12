@@ -22,13 +22,13 @@ $id =  get_the_author_meta( 'ID' );
 			<div class="author-thanks-details container">
 				<div class="row author-thanks-details-row">
 			
-					<div class="author-img col-md-4">
+					<div class="author-img">
 									<div class="author-meta">							
 										<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-thanks-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p>
 									</div>
 					</div>
 
-					<div class="author-thanks-profile col-md-8">
+					<div class="author-thanks-profile">
 						<header class="author-thanks-head">
 							<h3 class="author-thanks-role">Thank you to <?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?> for contributing to this article.</h3>
 						</header>
@@ -42,7 +42,7 @@ $id =  get_the_author_meta( 'ID' );
 						</article>
 					</div>
 
-					<div class="author-thanks-info col-md-4"><!-- social media -->	
+					<div class="author-thanks-info"><!-- social media -->	
 						<?php 
 								// get author contact info 
 								$twitter =  get_user_meta($id, 'twitter', true);
