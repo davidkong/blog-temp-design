@@ -1930,6 +1930,7 @@ span.icon-love:before {
 	}
 	.author-thanks-details-row {
 		padding: 2em 1.5em;
+		border-radius: 12px;
 	}
 	
 	/* CONTENT - CATEGORIES --------------------------------------------------------- 768px */
