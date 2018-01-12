@@ -818,7 +818,9 @@ figure.wp-caption img {
 }
 figure.wp-caption img.size-full {
   margin: 1.5em auto 1.5em 0;
-  max-width: 85%;
+}
+figure[style] { /* override inline styles fixing width of article figures */
+	width: 100% !important;
 }
 .single .author-avatar img {
   border-radius: 50%;
@@ -1879,10 +1881,14 @@ span.icon-love:before {
 	}
 	.entry-header {
 		width: 85vw;
+		padding: 2em 3em;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 0;
 		border-bottom-right-radius: 12px;
 		border-bottom-left-radius: 12px;
+	}
+	.entry-content p, li {
+		font-size: 18px;
 	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
