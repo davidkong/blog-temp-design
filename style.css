@@ -1467,6 +1467,17 @@ span.icon-love:before {
 		display: flex;
 		justify-content: space-between;
 	}
+	.single-post-cat a {
+		font-size: 16px;
+		font-family: 'Avenir-Heavy';
+	}
+	.read-time {
+		font-size: 12px;
+	}
+	.single-post-date {
+		font-size: 12px;
+		opacity: 0.6;
+	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 320px */
 	.single .author-bio-row,
