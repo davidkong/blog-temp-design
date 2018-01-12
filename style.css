@@ -1890,6 +1890,15 @@ span.icon-love:before {
 	.entry-content p, li {
 		font-size: 18px;
 	}
+	.bio-thanks-container {
+		width: 100%;
+	}
+	.single-more-container.container {
+		width: 100%;
+	}
+	div.author-container {
+		width: 100%;
+	}
 	
 	/* CONTENT - AUTHOR --------------------------------------------------------- 768px */
 	.author .author-row{
@@ -2004,7 +2013,7 @@ span.icon-love:before {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
-		padding: 0 1em 0 0;
+		padding: 0 24% 0 0;
 	}
 }
 

@@ -16,10 +16,10 @@ $curauth = $wp_query->get_queried_object();  // get current author
 $id =  get_the_author_meta( 'ID' );
 ?>
 
-	<div class="container bio-container">
+	<div class="container bio-thanks-container">
 		<div class="row author-thanks-row">
 		
-			<div class="author-details container">
+			<div class="author-thanks-details container">
 				<div class="row author-thanks-details-row">
 			
 					<div class="author-img col-md-4">
