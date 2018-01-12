@@ -1524,6 +1524,15 @@ span.icon-love:before {
 		display: flex;   		
 		flex-wrap: wrap;
 	}
+	.single .author-thanks-row {
+		padding: 0;
+	  display: -webkit-box;     
+		display: -moz-box;        
+		display: -ms-flexbox;    
+		display: -webkit-flex;     
+		display: flex;   		
+		flex-wrap: wrap;
+	}
 	.author-details-row{
 		background-color: #eeeef0;
 		padding: 1.5em ;
