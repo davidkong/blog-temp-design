@@ -2319,11 +2319,14 @@ span.icon-love:before {
 		display: inline-block;
 		margin-top: 0;
 	}
-	.entry-content p, li {
+	.entry-content p {
 		max-width: 700px;
 		margin: 1em auto;
 		font-size: 20px;
 		letter-spacing: .5px;
+	}
+	.entry-content li {
+		font-size: 20px;
 	}
 	.author-img.col-sm-3 {
 		padding-right: 0;
