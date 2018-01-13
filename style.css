@@ -2134,7 +2134,9 @@ span.icon-love:before {
 		padding-right: 0;
 	}
 	.logo-box img{max-width: 100%;}
-	.fancybox-overlay.fancybox-overlay-fixed {top: 145px;}
+	.fancybox-overlay.fancybox-overlay-fixed {
+		top: 110px;
+	}
 	#main-menu .navbar-nav.top-drop-menu>li>a{text-transform: capitalize;}
 			
 	/* NAV - MAIN MENUS --------------------------------------------------------- 1100px */
@@ -2330,6 +2332,14 @@ span.icon-love:before {
      -webkit-box-shadow: none;
      box-shadow: none;
   }
+  .fancybox-opened {
+		top: 12vh !important;
+		margin: 0 10vw !important;
+		max-width: 85% !important;
+	}
+	.fancybox-wrap[style] {
+		width: 90% !important;
+	}
 
   /* PAGE STRUCTURE - TITLES --------------------------------------------------------- 1100px */
 	h1{font-size: 3.5em;}
