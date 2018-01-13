@@ -1856,8 +1856,8 @@ span.icon-love:before {
 /* MAX - 767px ------------------------------------------------------------------------------ MAX - 767px */
 @media (max-width: 767px){
 	.fancybox-opened {
-		top: 0 !important;
-		left: 0 !important;
+		top: 12vh !important;
+		left: 2vh !important;
 	}
 }
 
