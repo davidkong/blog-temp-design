@@ -814,13 +814,12 @@ figure.wp-caption {
 figure.wp-caption img {
   display: block;
   float: none;
-  margin: 1.5em 0;
 }
 figure.wp-caption img.size-full {
   margin: 1.5em auto 1.5em 0;
 }
 figure[style] { /* override inline styles fixing width of article figures */
-	width: 100% !important;
+	width: 800px !important;
 }
 .single .author-avatar img {
   border-radius: 50%;
@@ -1487,7 +1486,10 @@ span.icon-love:before {
 		margin: 1em;
 		font-size: 16px;
 	}
-	.entry-content img{margin-top: 1.5em; margin-bottom: 1.5em;}
+	.entry-content img {
+		margin-top: 1.5em; 
+		margin-bottom: 1.5em;
+	}
 	.single-post-meta {
 		display: flex;
 		justify-content: space-between;
@@ -2322,11 +2324,14 @@ span.icon-love:before {
 	.entry-content p {
 		max-width: 700px;
 		margin: 1em auto;
-		font-size: 20px;
-		letter-spacing: .5px;
+		font-size: 17px;
+		line-height: 1.6;
 	}
 	.entry-content li {
-		font-size: 20px;
+		font-size: 17px;
+		max-width: 700px;
+		margin: 0.5em auto;
+		line-height: 1.6;
 	}
 	.author-img.col-sm-3 {
 		padding-right: 0;
@@ -2338,6 +2343,7 @@ span.icon-love:before {
 	.archive .cat-archive header.archive-header {
 	  padding: 0 1em;
 	}
+
 	
 	/* CONTENT - HOME/FRONT --------------------------------------------------------- 1100px */
 	.blog-container.container {margin-top: 0;}
@@ -2490,6 +2496,7 @@ span.icon-love:before {
 	/* CONTENT - SINGLES --------------------------------------------------------- 1100px */
 	.single .entry-header{
 		top: -222px;
+		max-width: 1000px;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 0;
 		border-bottom-right-radius: 12px;
@@ -2508,7 +2515,7 @@ span.icon-love:before {
 	.single .entry-content h3,
 	.single .entry-content h2{
 		max-width: 700px;
-		margin: 1em auto 1em 5.4em;
+		margin: 1em auto;
 		font-size: 24px;
 	}
 	.single .entry-content h1{font-size: 42px;}
@@ -2520,7 +2527,9 @@ span.icon-love:before {
 		margin-right: 1em;
 	}
 	.info-link {width: 50%;}
-	figure.wp-caption {margin: 1.5em auto;}
+	figure.wp-caption { 
+		margin: 1.5em auto;
+	}
 	.wp-caption-text {
 		position: absolute;
 		top: 0;
@@ -2618,12 +2627,19 @@ span.icon-love:before {
 	.h2{font-size: 42px;}
 	.author-content h2.post-meta-title,
 	h2.post-meta-title{font-size: 24px;}
+	.post-meta-title {
+		padding-right: 1em;
+	}
 	
 	/* CONTENT --------------------------------------------------------- 1120px */
 	.blog-post {  margin-top: -1.5em;}
 	.post-content.col-sm-8 .blog-post {margin-top: -50px;}
 	.post-content.col-sm-12 .blog-post { height: 400px;}
+	.bio-thanks-container {
+		width: 800px !important;
+	}
 }
+
 
 /* 1300px ------------------------------------------------------------------------------ 1300px */
 @media (min-width: 1300px){
@@ -2644,5 +2660,11 @@ span.icon-love:before {
 		left: 29vw;
 		width: 38%;
 		height: auto;
+	}
+	.bio-thanks-container {
+		width: 800px !important;
+	}
+	.author-thanks-details.container {
+		width: 90% !important;
 	}
 }
