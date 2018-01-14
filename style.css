@@ -1715,6 +1715,17 @@ span.icon-love:before {
 		font-size: 12px;
 		letter-spacing: 0.4px;
 	}
+	h5.searchsub {
+		font-size: 12px;
+		text-transform: uppercase;
+		opacity: 0.6;
+		font-family: 'Avenir-Roman';
+		letter-spacing: 1px;
+	}
+	h1.search-heading {
+		margin-bottom: 1em;
+		text-transform: capitalize;
+	}
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
 	.foot-container { 

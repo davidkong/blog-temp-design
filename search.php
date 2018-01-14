@@ -48,7 +48,7 @@ $total_results = $wp_query->found_posts;
 					
 					if($searchquery-> have_posts() ):
 						echo '<div class="container">';
-						echo '<h5 class="searchsub">Showing Results for</h5>';
+						echo '<h5 class="searchsub">Showing results for...</h5>';
 						echo '<h1 class="search-heading">' . $search_query  . '</h1>'; 
 						echo '</div>';
 					?>
