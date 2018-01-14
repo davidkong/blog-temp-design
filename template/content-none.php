@@ -7,8 +7,8 @@
 ?>
 
 <main id="nada">
-	<div class="container ">
-		<h1 class="search-heading">No results for your query</h1>
+	<div class="container no-results-header">
+		<h1 class="search-heading">No results.</h1>
 	</div>
 
 	<div class="container-fluid search-container ">

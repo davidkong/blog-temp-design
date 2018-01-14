@@ -1725,6 +1725,9 @@ span.icon-love:before {
 		margin-bottom: 1em;
 		text-transform: capitalize;
 	}
+	.no-results-header {
+		padding-left: 1em !important;
+	}
 	.search-header-align {
 		padding: 0 1em !important;
 	}
