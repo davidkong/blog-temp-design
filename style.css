@@ -2695,6 +2695,20 @@ span.icon-love:before {
 		height: 4em;
 		padding-left: 1em;
 	}
+	.post-content.col-sm-12 .no-results-redirect-post {
+		position: absolute !important;
+		top: 23px !important;
+		left: 60% !important;
+		width: 38% !important;
+		height: auto !important;
+		padding: 3em !important;
+	}
+	.post-content.col-sm-12 .no-results-redirect-thumb {
+		margin-left: 6% !important;
+	}
+	.no-results-redirect {
+		margin: 2em 0;
+	}
 }
 
 /* 1120px ------------------------------------------------------------------------------ 1120px */
@@ -2743,6 +2757,18 @@ span.icon-love:before {
 		left: 29vw;
 		width: 38%;
 		height: auto;
+	}
+	.post-content.col-sm-12 .no-results-redirect-post {
+		position: absolute !important;
+		top: 23px !important;
+		left: 60% !important;
+		width: 38% !important;
+		height: auto !important;
+		padding: 3em !important;
+	}
+
+	.post-content.col-sm-12 .no-results-redirect-thumb {
+		margin-left: 6% !important;
 	}
 	.bio-thanks-container {
 		width: 800px !important;

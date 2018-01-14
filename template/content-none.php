@@ -34,13 +34,13 @@
 		
 				<div  class='post-content col-sm-12'>
 					
-					<figure class="post-thumb">
+					<figure class="post-thumb no-results-redirect-thumb">
 								
 						<a href="<?php echo get_permalink( $post->ID ); ?>"><?php the_post_thumbnail();?></a>
 						
 					</figure>
 						
-					<div class="blog-post">						
+					<div class="blog-post no-results-redirect-post">						
 						
 						<span class="blog-post-cat blog-post-meta <?php echo $category[0]->slug; ?>"><?php  get_category_link($category[0]->cat_ID); ?><?php the_category(', ');?></span><span class="read-time"><?php echo high_reading_time();?></span>		
 						<h2 class="post-meta-title"><a href="<?php echo get_permalink( $post->ID ); ?>"><?php the_title(); ?></a></h2>				
