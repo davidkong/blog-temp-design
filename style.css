@@ -2652,6 +2652,12 @@ span.icon-love:before {
 	.cat-container {
 		padding: 6em 0 1em 0;
 	}
+	.search-results {
+		display: block !important;
+	}
+	.search-results-align {
+		display: block !important;
+	}
 	
 	/* FOOTER --------------------------------------------------------- 1100px */
 	.search .container.foot-container,
