@@ -616,7 +616,10 @@ i.fa.fa-long-arrow-right{
     margin: 6em auto;
 }
 .search .container:first-child{padding: 0;}
-#nada .container-fluid.search-container,
+#nada .container-fluid.search-container {
+	background-color: #F4F4F4;
+	padding-top: 1em;
+}
 .search .container-fluid.search-container{
   background-color: #F4F4F4;
 	padding-top: 3em;
@@ -1727,6 +1730,16 @@ span.icon-love:before {
 	}
 	.no-results-header {
 		padding-left: 1em !important;
+	}
+	.no-results-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.no-results-redirect {
+		font-family: 'Avenir-Book';
+		font-size: 24px;
+		opacity: 0.6;
+		margin-bottom: 1em;
 	}
 	.search-header-align {
 		padding: 0 1em !important;

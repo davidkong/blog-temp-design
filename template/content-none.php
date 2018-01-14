@@ -12,11 +12,11 @@
 	</div>
 
 	<div class="container-fluid search-container ">
-		<div class="container ">
-			<div class="row">
+		<div class="container">
+			<div class="row no-results-container">
 					
 			
-				<h3> Read this instead</h3>
+				<h3 class="no-results-redirect">Read this instead</h3>
 			
 					<?php // set up loop for featured post
 						
