@@ -1728,6 +1728,9 @@ span.icon-love:before {
 	.search-header-align {
 		padding: 0 1em !important;
 	}
+	.search-results-align {
+		flex-direction: column;
+	}
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
 	.foot-container { 

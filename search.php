@@ -56,7 +56,7 @@ $total_results = $wp_query->found_posts;
 	
 			<div class="container-fluid search-container ">
 				<div class="container ">
-					<div class="row">
+					<div class="row search-results-align">
 						
 							<?php
 								while($searchquery->have_posts()) : $searchquery->the_post(); 
