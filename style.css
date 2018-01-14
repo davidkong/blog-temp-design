@@ -1046,7 +1046,7 @@ span.icon-love:before {
 	button, input, optgroup, select, textarea {font-size: 10px;}
 	main#search-results
 	.container { 
-		padding-left: 20px;
+		padding-left: 0px;
 		padding-right: 0px;
 	}
 	
@@ -1060,7 +1060,6 @@ span.icon-love:before {
 		margin-bottom: 1em;
 	}
 	.single-post header.entry-header {height: auto;}
-	.logo-box.col {padding-left: 1em;}
 	.logo-box-form {
 		display: none;
 	}
@@ -1725,6 +1724,9 @@ span.icon-love:before {
 	h1.search-heading {
 		margin-bottom: 1em;
 		text-transform: capitalize;
+	}
+	.search-header-align {
+		padding: 0 1em !important;
 	}
 	
 	/* CONTENT - FOOTER --------------------------------------------------------- 320px */
