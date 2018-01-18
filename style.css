@@ -2684,7 +2684,7 @@ span.icon-love:before {
 	}
 	.foot-text{text-align: left;}
 	.social-icon-wrap {
-		padding-top: 0;
+		padding: 0 7% 0 0;
 		text-align: left;
 	}
 	.foot-action-buttons {
