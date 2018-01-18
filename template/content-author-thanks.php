@@ -23,7 +23,7 @@ $id =  get_the_author_meta( 'ID' );
 				<div class="row author-thanks-details-row">
 			
 					<div class="author-img">
-									<div class="author-meta">							
+									<div class="author-thanks-meta">							
 										<figure class="author-avatar"><?php echo get_avatar( get_the_author_meta('ID'), 60); ?></figure><p class="author-thanks-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php echo get_the_author_meta( 'first_name') . ' ' .  get_the_author_meta( 'last_name'); ?></a></p>
 									</div>
 					</div>

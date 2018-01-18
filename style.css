@@ -1547,7 +1547,7 @@ span.icon-love:before {
 		font-size: 12px;
 		opacity: 0.6;
 	}
-	.author-meta {
+	.author-meta, .author-thanks-meta {
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: flex-end;
@@ -2011,7 +2011,6 @@ span.icon-love:before {
 	}
 	.author-thanks-details-row {
 		padding: 2em 1.5em;
-		border-radius: 12px;
 	}
 	
 	/* CONTENT - CATEGORIES --------------------------------------------------------- 768px */
@@ -2041,6 +2040,9 @@ span.icon-love:before {
 	}
 	.author-post.col-md-4 {
 		display: none;
+	}
+	.author-thanks-meta {
+		padding-left: 1em;
 	}
 
 	/* CONTENT - FOOTER --------------------------------------------------------- 768px */
@@ -2433,6 +2435,9 @@ span.icon-love:before {
 	}
 	.archive .cat-archive header.archive-header {
 	  padding: 0 1em;
+	}
+	.author-thanks-meta {
+		padding-left: 2em;
 	}
 
 	
