@@ -1428,7 +1428,9 @@ span.icon-love:before {
 		border-bottom-left-radius: 12px;
 	}
 	.blog-post a, 
-	.featured-post a {font-family: 'Avenir-Heavy';}
+	.featured-post a { 
+		font-family: 'Avenir-Heavy';
+	}
 	.blog-post {
 		top: -6.75vh;
 		border-top-right-radius: 12px;
@@ -1956,10 +1958,7 @@ span.icon-love:before {
 		width: 650px;
 	}
 	.single-thumb img {
-		border-top-right-radius: 12px;
-		border-top-left-radius: 12px;
-		border-bottom-right-radius: 12px;
-		border-bottom-left-radius: 0;
+		border-radius: 0;
 	}
 	.entry-header {
 		width: 85vw;
@@ -2451,6 +2450,7 @@ span.icon-love:before {
 		top: -300px;
 	}
 	.featured-post {
+		position: absolute;
 		top: 26.4%;
 		width: 42.25%;
 		padding: 4em;
@@ -2595,10 +2595,7 @@ span.icon-love:before {
 		border-bottom-left-radius: 12px;
 	}
 	.single-thumb img{
-		border-top-right-radius: 12px;
-		border-top-left-radius: 12px;
-		border-bottom-right-radius: 12px;
-		border-bottom-left-radius: 0;
+		border-radius: 0;
 	}
 	.post-content.col-md-4 {
 		width: 33.33333%;
