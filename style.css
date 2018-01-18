@@ -802,6 +802,7 @@ figure.single-thumb img {
 	z-index: 0;
 }
 .single-thumb img {
+	width: max-content;
 	max-height: 680px;
 }
 .entry-content{
