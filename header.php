@@ -38,7 +38,7 @@
 					<div class="container-fluid">
 							
 						<div class="top-menu row">
-							<div class="container">
+							<div class="container top-menu-container">
 								<div class="top-logo-box col">
 										<a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
 											 title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
