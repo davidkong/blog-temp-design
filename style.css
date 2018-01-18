@@ -2447,12 +2447,12 @@ span.icon-love:before {
 		top: -300px;
 	}
 	.featured-post {
-		top: 25%;
+		top: 26.4%;
 		width: 42.25%;
 		padding: 4em;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 0;
-		border-bottom-right-radius: 12px;
+		border-bottom-right-radius: 0;
 		border-bottom-left-radius: 12px;
 	}
 	.feature-thumb {
