@@ -1233,22 +1233,28 @@ span.icon-love:before {
 		float: none;
 		width: calc(100% - 80px);
 		height: auto;
-		margin: 2em 2.6em;
+		margin: 2em 2.6em 2em 14%;
 	}
 	.mobile-logo-wrap .sign-up input[type="text"] {
-		padding: 1em;
+		padding: 0.8em 1em;
 		width: 100%;
-		border-radius: 8px;
+		font-size: 13px;
+		border-radius: 4px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #d7d7dc;
 	}
 	.mobile-logo-wrap .sign-up input[type="submit"] {
 		background: none;
 		width: 100%;
 		margin: 1em auto;
-		padding: .6em;
+		padding: 1em;
 		color: #5a52ff;
-		font-size: 1em;
+		font-size: 11px;
+		font-family: 'Avenir-Heavy';
+		letter-spacing: 1px;
 		border: 1px solid #5a52ff;
-		border-radius: 8px;
+		border-radius: 4px;
 		box-shadow: none;
 		-webkit-appearance: none;
 	}
