@@ -2725,6 +2725,9 @@ span.icon-love:before {
 	.foot-join-us {
 		height: 2.5em;
 	}
+	#disqus_thread {
+		margin: 0 6em;
+	}
 }
 
 /* 1120px ------------------------------------------------------------------------------ 1120px */
