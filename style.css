@@ -2079,6 +2079,7 @@ span.icon-love:before {
 		margin-top: 0;
 		margin-left: 0.6em;
 		padding: 0 15px;
+		height: 3.5em;
 		width: 200px;
 	}
 	.explore-frame-align {
@@ -2689,6 +2690,7 @@ span.icon-love:before {
 	}
 	.foot-action-buttons {
 		flex-direction: row;
+		align-items: center;
 	}
 	.explore-frame-align {
 		margin: 0;
@@ -2708,6 +2710,9 @@ span.icon-love:before {
 	}
 	.no-results-redirect {
 		margin: 2em 0;
+	}
+	.foot-join-us {
+		height: 2.5em;
 	}
 }
 
