@@ -2142,7 +2142,11 @@ span.icon-love:before {
 	.logo-box-sign-up input[type="text"] {
 		padding: 6px 0 6px 12px;
 		width: 180px;
-		border-radius: 6px;
+		border-radius: 4px;
+		border-style: solid;
+		border-color: #d7d7dc;
+		border-width: 1px;
+		font-size: 14px;
 	}
 	.logo-box-sign-up input[type="submit"] {
 		background: none;
@@ -2153,7 +2157,7 @@ span.icon-love:before {
 		font-size: 12px;
 		font-family: 'Avenir-Black';
 		border: 1px solid #5a52ff;
-		border-radius: 6px;
+		border-radius: 4px;
 		box-shadow: none;
 		-webkit-appearance: none;
 		letter-spacing: 1px;
