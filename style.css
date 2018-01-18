@@ -1398,9 +1398,10 @@ span.icon-love:before {
 		z-index: 100;
 	}
 	.post-date,
-	.read-time{ 
+	.read-time { 
 		font-family: 'Avenir-Roman'; 
 		font-size: .8em;
+		opacity: 0.6;
 	}
 	.entry-header {
 		position: relative;
@@ -1465,7 +1466,10 @@ span.icon-love:before {
 		margin-right: 0;
 	}
 	span.single-post-date.post-date.small { float: none;}
-	.blog-post-date.post-date.small {font-size: 12px;}
+	.blog-post-date.post-date.small {
+		font-size: 12px;
+		opacity: 0.6;
+	}
 	#post-cta {
 		margin-top: 3em;
 		padding: 1em;
