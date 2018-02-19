@@ -52,9 +52,9 @@
 					
 					<div class="col-sm-offset-3 col-sm-3">
 						<div class="social-icon-wrap">
-							<span class="social-icon"><a href="https://frame.io/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/frame-gray-icon.png" alt="Frame.io"></a></span>
-							<span class="social-icon"><a href="https://twitter.com/Frame_io" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-gray-icon.png" alt="Twitter Frame"></a></span>
-							<span class="social-icon"><a href="https://www.facebook.com/frameioapp" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-gray-icon.png" alt="Facebook Frame App"></a></span>
+							<span class="social-icon"><a href="https://frame.io/" target="_blank"><img class="frameio-footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/frame-gray-icon.png" alt="Frame.io"></a></span>
+							<span class="social-icon"><a href="https://twitter.com/Frame_io" target="_blank"><img class="twitter-footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/twitter-gray-icon.png" alt="Twitter Frame"></a></span>
+							<span class="social-icon"><a href="https://www.facebook.com/frameioapp" target="_blank"><img class="facebook-footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/facebook-gray-icon.png" alt="Facebook Frame App"></a></span>
 						</div>
 					</div>
 				</div>

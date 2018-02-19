@@ -644,13 +644,13 @@ h6{
 .site-title {
   display: inline-block;
   position: relative;
-  top: 3px;
+  top: 4px;
   margin: 0 auto;
   margin-left: 7px;
 	color: #2A273E;
 	opacity: 0.6; 
 	font-family: 'Avenir-Book';
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
@@ -709,10 +709,10 @@ h6{
 .featured-post {
 	position: relative;
 	background-color: #ffffff;
-	-webkit-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.1);
-	-moz-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.1);
-	-ms-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.1);
-	box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.1);
+	-webkit-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.2);
+	-moz-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.2);
+	-ms-box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.2);
+	box-shadow: 0px 20px 50px rgba(5, 4, 10, 0.2);
 	z-index: 500;
 }
 .feature-thumb img{
@@ -754,10 +754,11 @@ header.entry-header {
     -webkit-appearance: none;
 }
 .selected-posts {
+	position: relative;
     display: inline-block;
-    width: 3em;
-    height: 1em;
-    border: 1px solid #5A52FF;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #5A52FF;
     border-radius: 20px;
 }
 
@@ -1023,20 +1024,40 @@ main {min-height: calc(100vh - 255px); /* sticky footer */}
 	text-transform: uppercase;
 	line-height: 2;
 }
+.explore-frame-arrow img {
+	width: 10px;
+	height: 10px;
+	margin-left: 4px;
+}
 span.icon-love:before {
   content: url(images/love-iconNormal.png);
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   position: relative;
-  top: 1px;
+  top: 10px;
+  left: -3px;
   margin-right: 3px;
   margin-left: 3px;
   display: inline-block;
+  transform: scale(.5);
 }
 .social-icon {
   display: inline-block;
   margin: 0 2em 1em 0;
 }
+.frameio-footer-logo {
+	width: 21px;
+	height: 24px;
+}
+.twitter-footer-logo {
+	width: 19px;
+	height: 16px;
+}
+.facebook-footer-logo {
+	width: 17px;
+	height: 17px;
+}
+
 
 /* MOBILE BREAKPOINTS
 ----------------------------------------------------------------------
@@ -1229,7 +1250,11 @@ span.icon-love:before {
 		-ms-box-shadow:  inset 0px 20px 50px rgba(5, 4, 10, 0.1);
 		box-shadow:  inset 0px 20px 50px rgba(5, 4, 10, 0.1);
 	}
-	.logo-box img{max-width: 62.5%;}
+	.logo-box img{
+		/* max-width: 62.5%; */
+		width: 132px;
+		height: 32px;
+	}
 	.mobile-logo-wrap .sign-up{
 		float: none;
 		width: calc(100% - 80px);
@@ -1346,6 +1371,9 @@ span.icon-love:before {
 	#filter {
 		position: relative;
 		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		margin-bottom: 5em;
 		text-align: center;
 		z-index: 300;
@@ -1353,19 +1381,21 @@ span.icon-love:before {
 	a#recent_posts,
 	a#popular_posts{
 		position: relative;
-		top: -3px;
-		left: -4px;
+		left: -9px;
 		color: #828090 !important;
 		font-family: 'Avenir-Black';
-		font-size: 14px;
+		font-size: 12px;
 	}
-	a#popular_posts{left: auto; right: -4px;}
+	a#popular_posts{left: auto; right: -9px;}
 	a#recent_posts.active,
 	a#popular_posts.active{color: #38354f !important;}
 	.filter-background {
 		background-color: #5A52FF;
-		width: 36%;
-		height: 14px;
+		position: absolute;
+		top: -1px;
+		left: 0px;
+		width: 18px;
+		height: 18px;
 		float: left;
 		border-top-left-radius: 8px;
 		border-bottom-left-radius: 8px;
@@ -1374,8 +1404,11 @@ span.icon-love:before {
 	}
 	.filter-background-popular {
 		background-color: #5A52FF;
-		width: 36%;
-		height: 14px;
+		position: absolute;
+		top: -1px;
+		right: 0px;
+		width: 18px;
+		height: 18px;
 		float: right;
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
@@ -1776,7 +1809,8 @@ span.icon-love:before {
 		flex-direction: column;
 	}
 	.foot-join-us { /* html button */
-		height: 4em;
+		width: 194px;
+		height: 48px;
 		margin-top: 2em;
 		padding: 0 20%;
 		border-width: 2px;
@@ -2091,8 +2125,6 @@ span.icon-love:before {
 		margin-top: 0;
 		margin-left: 0.6em;
 		padding: 0 15px;
-		height: 3.5em;
-		width: 200px;
 	}
 	.explore-frame-align {
 		width: 200px;
@@ -2146,8 +2178,8 @@ span.icon-love:before {
 		width: 100%;
 	}
 	.logo-box-sign-up input[type="text"] {
-		padding: 6px 0 6px 12px;
-		width: 180px;
+		padding: 8px 0 6px 12px;
+		width: 160px;
 		border-radius: 4px;
 		border-style: solid;
 		border-color: #d7d7dc;
@@ -2157,8 +2189,9 @@ span.icon-love:before {
 	.logo-box-sign-up input[type="submit"] {
 		background: none;
 		padding: 0;
+		padding-top: 3px;
 		margin-left: 1em;
-		width: 140px;
+		width: 120px;
 		color: #5a52ff;
 		font-size: 12px;
 		font-family: 'Avenir-Black';
@@ -2182,7 +2215,11 @@ span.icon-love:before {
 	button.btn.btn-default.fancybox {
 		padding-right: 0;
 	}
-	.logo-box img{max-width: 100%;}
+	.logo-box img{
+		/* max-width: 100%; */
+		width: 132px;
+		height: 32px;
+	}
 	.fancybox-overlay.fancybox-overlay-fixed {
 		top: 110px;
 	}
@@ -2474,7 +2511,7 @@ span.icon-love:before {
 		width: 42.25%;
 		padding: 4em;
 		border-top-right-radius: 12px;
-		border-top-left-radius: 0;
+		border-top-left-radius: 12px;
 		border-bottom-right-radius: 0;
 		border-bottom-left-radius: 12px;
 	}
@@ -2740,9 +2777,6 @@ span.icon-love:before {
 	}
 	.no-results-redirect {
 		margin: 2em 0;
-	}
-	.foot-join-us {
-		height: 2.5em;
 	}
 	#disqus_thread {
 		margin: 0 6em;
