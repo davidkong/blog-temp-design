@@ -168,7 +168,7 @@
 							<!-- search icon & popout -->
 							<div class="col-sm-1 col-md-1 pull-right search">
 								<button class="btn btn-default fancybox">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/frame-search-icon.png" width="20" height="20" alt="Frame Search" />
+									<img class="header-search-icon" src="<?php echo get_template_directory_uri(); ?>/images/frame-search-icon.png" width="20" height="20" alt="Frame Search" />
 								</button>
 								<div class="hide-search"  style="display: none;">
 									<div class="search-wrap" id="search-pop">
